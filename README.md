@@ -18,7 +18,7 @@
 
 ## 🖥️ Preview
 
-*(Add screenshots or GIFs here when ready)*
+![Roblox Next Gen Preview](https://i.ibb.co/mCK1fksV/image-2025-09-13-210113075.png)
 
 ---
 
