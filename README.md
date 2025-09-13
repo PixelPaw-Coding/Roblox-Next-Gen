@@ -27,7 +27,7 @@
 ### 🔹 Chrome / Opera / Chromium Browsers
 
 1. Download or clone this repository:
-git clone https://github.com/yourusername/roblox-next-gen
+git clone https://github.com/PixelPaw-Coding/roblox-next-gen
 
 yaml
 Copy code
