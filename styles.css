@@ -1,0 +1,30 @@
+/* Dark background */
+body {
+  background-color: #0f121b !important;
+  color: #c0c8f8 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+/* Links */
+a {
+  color: #72e2ff !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5 {
+  color: #a3c8ff !important;
+}
+
+/* Buttons with neon effect */
+button {
+  background-color: #1a1f3d !important;
+  border: 1px solid #72e2ff !important;
+  color: #72e2ff !important;
+  box-shadow: 0 0 8px #72e2ff;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3a4a8c !important;
+  box-shadow: 0 0 12px #99d9ff;
+}
