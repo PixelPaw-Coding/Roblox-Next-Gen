@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Roblox Next Gen",
-  "version": "1.0",
-  "description": "A futuristic Roblox theme and UI enhancer",
+  "name": "Roblox Next Gen 2.0",
+  "version": "2.0",
+  "description": "A futuristic Roblox theme and UI enhancer - Next Gen!",
   "icons": {
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
