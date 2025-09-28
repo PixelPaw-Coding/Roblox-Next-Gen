@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Roblox Next Gen</title>
+  <meta charset="UTF-8">
+  <title>Roblox Next Gen 2.0</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f121b;
+      background-color: #0a0d1f;
       color: #72e2ff;
-      padding: 10px;
-      width: 200px;
+      padding: 15px;
+      width: 220px;
       text-align: center;
+      transition: background-color 0.5s, color 0.5s;
     }
+
+    h2 {
+      margin-bottom: 15px;
+      text-shadow: 0 0 6px #72e2ff;
+    }
+
     button {
-      margin-top: 15px;
+      margin-top: 10px;
       background-color: #1a1f3d;
       border: 1px solid #72e2ff;
       color: #72e2ff;
-      padding: 8px 12px;
+      padding: 10px 14px;
       cursor: pointer;
       box-shadow: 0 0 8px #72e2ff;
-      transition: background-color 0.3s;
+      border-radius: 6px;
+      transition: all 0.3s ease;
     }
+
     button:hover {
       background-color: #3a4a8c;
+      box-shadow: 0 0 12px #99d9ff, 0 0 20px #72e2ff inset;
     }
   </style>
 </head>
 <body>
-  <h2>Roblox Next Gen</h2>
-  <button id="reloadBtn">Apply Changes</button>
+  <h2>Roblox Next Gen 2.0</h2>
+  <button id="reloadBtn">Apply Theme</button>
 
   <script src="popup.js"></script>
 </body>
