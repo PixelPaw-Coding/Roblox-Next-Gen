@@ -1,1 +1,1 @@
-console.log("Roblox Next Gen extension active! 🚀");
+console.log("🚀 Roblox Next Gen 2.0 active — welcome to the future!");
