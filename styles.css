@@ -1,30 +1,41 @@
-/* Dark background */
+/* Dark futuristic background */
 body {
-  background-color: #0f121b !important;
+  background-color: #0a0d1f !important;
   color: #c0c8f8 !important;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  transition: background-color 0.5s, color 0.5s;
 }
 
-/* Links */
+/* Links with neon hover glow */
 a {
   color: #72e2ff !important;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+  color: #99d9ff !important;
+  text-shadow: 0 0 8px #72e2ff;
 }
 
 /* Headers */
 h1, h2, h3, h4, h5 {
   color: #a3c8ff !important;
+  text-shadow: 0 0 6px #72e2ff;
 }
 
-/* Buttons with neon effect */
+/* Neon buttons */
 button {
   background-color: #1a1f3d !important;
   border: 1px solid #72e2ff !important;
   color: #72e2ff !important;
   box-shadow: 0 0 8px #72e2ff;
-  transition: background-color 0.3s;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 button:hover {
   background-color: #3a4a8c !important;
-  box-shadow: 0 0 12px #99d9ff;
+  box-shadow: 0 0 12px #99d9ff, 0 0 20px #72e2ff inset;
 }
